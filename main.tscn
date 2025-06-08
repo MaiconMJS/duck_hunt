@@ -1,0 +1,164 @@
+[gd_scene load_steps=21 format=3 uid="uid://yf7y2lnalpay"]
+
+[ext_resource type="Texture2D" uid="uid://evmjrtg0c37d" path="res://Material Duck Hunt/cenariotras.png" id="1_h2yge"]
+[ext_resource type="Script" uid="uid://baqdl0txt1lu" path="res://main.gd" id="1_lquwl"]
+[ext_resource type="Texture2D" uid="uid://d2kw3bvajpqai" path="res://Material Duck Hunt/cenariofrente.png" id="2_1bvp3"]
+[ext_resource type="PackedScene" uid="uid://ckgmfmx8cfvld" path="res://alvo.tscn" id="5_7mycd"]
+[ext_resource type="PackedScene" uid="uid://bruksqf6o8jpc" path="res://topo.tscn" id="5_272bh"]
+[ext_resource type="PackedScene" uid="uid://cfuxby45iujp3" path="res://chao.tscn" id="6_5vw27"]
+[ext_resource type="Texture2D" uid="uid://cu60261m01uno" path="res://Material Duck Hunt/cao/captura.png" id="7_5vw27"]
+[ext_resource type="Texture2D" uid="uid://dvr1okyciw44m" path="res://Material Duck Hunt/cao/rindo.png" id="8_kek77"]
+[ext_resource type="Texture2D" uid="uid://dve856th6leg" path="res://Material Duck Hunt/hud.png" id="9_kek77"]
+[ext_resource type="FontFile" uid="uid://ccrljmyd6dxo" path="res://Material Duck Hunt/PressStart2P.ttf" id="10_4c57u"]
+[ext_resource type="AudioStream" uid="uid://dfijcjkptbim4" path="res://Material Duck Hunt/sons/cao_captura.wav" id="11_vivmo"]
+[ext_resource type="AudioStream" uid="uid://ctbtkg054fi6d" path="res://Material Duck Hunt/sons/cao_rindo.wav" id="12_2cqfq"]
+[ext_resource type="AudioStream" uid="uid://csxncy7a7oaac" path="res://Material Duck Hunt/sons/colidiu.wav" id="13_yaehf"]
+[ext_resource type="AudioStream" uid="uid://b5n7uwj6pmhpv" path="res://Material Duck Hunt/sons/flyaway.wav" id="14_074og"]
+[ext_resource type="AudioStream" uid="uid://b4y8iebqj6h36" path="res://Material Duck Hunt/sons/round.wav" id="15_cegan"]
+
+[sub_resource type="Animation" id="Animation_efxa6"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("captura:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(370, 536)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("rindo:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(362, 544)]
+}
+
+[sub_resource type="Animation" id="Animation_4c57u"]
+resource_name = "captura"
+length = 3.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("captura:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1, 3),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(370, 536), Vector2(370, 419), Vector2(366, 544)]
+}
+
+[sub_resource type="Animation" id="Animation_dg77c"]
+resource_name = "rindo"
+length = 3.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("rindo:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.2, 3),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(362, 544), Vector2(362, 419), Vector2(364, 542)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_ycdy4"]
+_data = {
+&"RESET": SubResource("Animation_efxa6"),
+&"captura": SubResource("Animation_4c57u"),
+&"rindo": SubResource("Animation_dg77c")
+}
+
+[sub_resource type="LabelSettings" id="LabelSettings_efxa6"]
+font = ExtResource("10_4c57u")
+font_size = 19
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_lquwl")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+z_index = -3
+texture = ExtResource("1_h2yge")
+centered = false
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+z_index = 1
+texture = ExtResource("2_1bvp3")
+centered = false
+
+[node name="Alvo" parent="." instance=ExtResource("5_7mycd")]
+
+[node name="gerapato" type="Timer" parent="."]
+one_shot = true
+
+[node name="espera" type="Timer" parent="."]
+wait_time = 4.0
+one_shot = true
+
+[node name="topo" parent="." instance=ExtResource("5_272bh")]
+position = Vector2(384, -91)
+
+[node name="chao" parent="." instance=ExtResource("6_5vw27")]
+position = Vector2(386, 791)
+
+[node name="captura" type="Sprite2D" parent="."]
+position = Vector2(370, 536)
+texture = ExtResource("7_5vw27")
+
+[node name="rindo" type="Sprite2D" parent="."]
+position = Vector2(362, 544)
+texture = ExtResource("8_kek77")
+
+[node name="cao" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_ycdy4")
+}
+
+[node name="HUD" type="CanvasLayer" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="HUD"]
+position = Vector2(383, 590)
+texture = ExtResource("9_kek77")
+
+[node name="Label" type="Label" parent="HUD"]
+offset_left = 356.0
+offset_top = 579.0
+offset_right = 413.0
+offset_bottom = 602.0
+text = "000"
+label_settings = SubResource("LabelSettings_efxa6")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="cao_captura" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("11_vivmo")
+
+[node name="cao_rindo" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("12_2cqfq")
+
+[node name="colidiu" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("13_yaehf")
+
+[node name="flyaway" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("14_074og")
+
+[node name="novoturno" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("15_cegan")
+
+[connection signal="timeout" from="gerapato" to="." method="_on_gerapato_timeout"]
+[connection signal="timeout" from="espera" to="." method="_on_espera_timeout"]
+[connection signal="body_entered" from="topo" to="." method="_on_topo_body_entered"]
+[connection signal="body_entered" from="chao" to="." method="_on_chao_body_entered"]

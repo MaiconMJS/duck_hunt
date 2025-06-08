@@ -1,0 +1,47 @@
+fc8a56933c4b1c8d796fdb8f7a9f9475
+::res://::1749424144
+alvo.gd::GDScript::4961448623689023743::1749424018::0::1::::<>Area2D<><>0<>0<><>::
+alvo.tscn::PackedScene::5487854270486572789::1749424049::0::1::::<><><>0<>0<><>::uid://ccxmlmb1xejch::::res://alvo.gd<>uid://bnlgqmeaiia74::::res://Material Duck Hunt/alvo.png<>uid://dvksvckqvuh6l::::res://Material Duck Hunt/sons/tiro.wav
+chao.tscn::PackedScene::5166472724019375070::1749424049::0::1::::<><><>0<>0<><>::uid://dpwxpm5uv8rqb::::res://Material Duck Hunt/chao.png
+export_presets.cfg::TextFile::-1::1749423987::0::1::::<><><>0<>0<><>::
+gitignore.txt::TextFile::-1::1749424105::0::1::::<><><>0<>0<><>::
+icon.svg::CompressedTexture2D/CompressedTexture2D::3364911945061988635::1749411974::1749411979::1::::<><><>0<>0<>4ea81aa2465b208dedb8b6d12a345ce4<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+main.gd::GDScript::71166290175758490::1749422951::0::1::::<>Node2D<><>0<>0<><>::
+main.tscn::PackedScene::1696841374619733132::1749424049::0::1::::<><><>0<>0<><>::uid://evmjrtg0c37d::::res://Material Duck Hunt/cenariotras.png<>uid://baqdl0txt1lu::::res://main.gd<>uid://d2kw3bvajpqai::::res://Material Duck Hunt/cenariofrente.png<>uid://ckgmfmx8cfvld::::res://alvo.tscn<>uid://bruksqf6o8jpc::::res://topo.tscn<>uid://cfuxby45iujp3::::res://chao.tscn<>uid://cu60261m01uno::::res://Material Duck Hunt/cao/captura.png<>uid://dvr1okyciw44m::::res://Material Duck Hunt/cao/rindo.png<>uid://dve856th6leg::::res://Material Duck Hunt/hud.png<>uid://ccrljmyd6dxo::::res://Material Duck Hunt/PressStart2P.ttf<>uid://dfijcjkptbim4::::res://Material Duck Hunt/sons/cao_captura.wav<>uid://ctbtkg054fi6d::::res://Material Duck Hunt/sons/cao_rindo.wav<>uid://csxncy7a7oaac::::res://Material Duck Hunt/sons/colidiu.wav<>uid://b5n7uwj6pmhpv::::res://Material Duck Hunt/sons/flyaway.wav<>uid://b4y8iebqj6h36::::res://Material Duck Hunt/sons/round.wav
+pato.gd::GDScript::3426356603534234260::1749423174::0::1::::<>CharacterBody2D<><>0<>0<><>::
+pato.tscn::PackedScene::1720581108902770588::1749424049::0::1::::<><><>0<>0<><>::uid://bo20ufebh1w0k::::res://pato.gd<>uid://cia81hm0a4nmr::::res://Material Duck Hunt/pato/cima/sprite_0.png<>uid://ciu5jb1jww5lq::::res://Material Duck Hunt/pato/cima/sprite_1.png<>uid://dc5a4x6j1c0n7::::res://Material Duck Hunt/pato/cima/sprite_2.png<>uid://ckl4do4xb37tc::::res://Material Duck Hunt/pato/lado/sprite_0.png<>uid://c2edh6nyajqdk::::res://Material Duck Hunt/pato/lado/sprite_1.png<>uid://cllisjjsgm1fn::::res://Material Duck Hunt/pato/lado/sprite_2.png<>uid://bwyce1vfc27tx::::res://Material Duck Hunt/pato/morte/0.png<>uid://cjgvdf8j4f74u::::res://Material Duck Hunt/pato/morte/1.png<>uid://d4flsm1tg462m::::res://Material Duck Hunt/pato/morte/2.png<>uid://b2bft5xtidyyh::::res://Material Duck Hunt/pato/morte/3.png<>uid://bi75trhx4st71::::res://Material Duck Hunt/pato/susto.png<>uid://ctjaf6so3y8m7::::res://Material Duck Hunt/sons/pato.wav
+topo.tscn::PackedScene::3621558744364939052::1749424049::0::1::::<><><>0<>0<><>::uid://dn0w8g07rayk8::::res://Material Duck Hunt/topo.png
+::res://Material Duck Hunt/::1749412072
+alvo.png::CompressedTexture2D/CompressedTexture2D::3321977317411682333::1613916114::1749412072::1::::<><><>0<>0<>5748458b4236eed1b69bdcefd54bbda1<>res://.godot/imported/alvo.png-675f67d6a80484b1d079b6d4189fa930.ctex::
+cenariofrente.png::CompressedTexture2D/CompressedTexture2D::9076390467893852560::1616348584::1749412072::1::::<><><>0<>0<>d4d8f6d0c0d46940511bcfda6a4748f9<>res://.godot/imported/cenariofrente.png-3907a0d91013c0bf95c394fca94cf3d4.ctex::
+cenariotras.png::CompressedTexture2D/CompressedTexture2D::324852906000095827::1613915954::1749412072::1::::<><><>0<>0<>36ef245f5846f3e37ff897e31651640b<>res://.godot/imported/cenariotras.png-2a2b83ddcd9cf31f8a8662e3c442e645.ctex::
+chao.png::CompressedTexture2D/CompressedTexture2D::8258934971543729085::1616348118::1749412072::1::::<><><>0<>0<>5c1d18b81260fe477dece130856c3553<>res://.godot/imported/chao.png-fdf642392a56614d1a730b2c39ce234d.ctex::
+hud.png::CompressedTexture2D/CompressedTexture2D::254221887382579778::1616421624::1749412072::1::::<><><>0<>0<>2ac458470cbcb045b737fb673397c65b<>res://.godot/imported/hud.png-06a0431d25596a13e6fc259bb1d5aeab.ctex::
+PressStart2P.ttf::FontFile/FontFile::145558767737654224::1351644427::1749412072::1::::<><><>0<>0<>40a7ed560e380562b277710dc64932c4<>res://.godot/imported/PressStart2P.ttf-4a840d93a3da46327ccfd75337577372.fontdata::
+topo.png::CompressedTexture2D/CompressedTexture2D::8124721522501832997::1616348118::1749412072::1::::<><><>0<>0<>79076c1992385a6fb0a4a1fe95d0226e<>res://.godot/imported/topo.png-1974bf20543b38eccb93775630e2e608.ctex::
+::res://Material Duck Hunt/cao/::1749412072
+captura.png::CompressedTexture2D/CompressedTexture2D::6242181760745744888::1616954532::1749412072::1::::<><><>0<>0<>ac720db82c116a26547ddb6b057a9622<>res://.godot/imported/captura.png-bc08de7e5c7926d933a184e4f7504ae3.ctex::
+rindo.png::CompressedTexture2D/CompressedTexture2D::8669926394634864202::1616413394::1749412072::1::::<><><>0<>0<>a3377db1774aadba17f9035cfa0719bd<>res://.godot/imported/rindo.png-40aed8575738553d7b0e1c76399f48b2.ctex::
+::res://Material Duck Hunt/pato/::1749412072
+susto.png::CompressedTexture2D/CompressedTexture2D::3015847865589542310::1613918492::1749412072::1::::<><><>0<>0<>3303dfd83f65c6659827333d6f7ac0be<>res://.godot/imported/susto.png-2b8be3664cb93e423fde005634b80bef.ctex::
+::res://Material Duck Hunt/pato/cima/::1749412072
+sprite_0.png::CompressedTexture2D/CompressedTexture2D::5336402595231426661::1613918992::1749412072::1::::<><><>0<>0<>0de56bac5101eb1c9749f7a61ae3f616<>res://.godot/imported/sprite_0.png-3c9a1f1f0e870f79b7819a4dc08a5cfc.ctex::
+sprite_1.png::CompressedTexture2D/CompressedTexture2D::5377477346627277614::1613918992::1749412072::1::::<><><>0<>0<>688413b85e1ad34175e0ed65d629becf<>res://.godot/imported/sprite_1.png-03d300c76101d2475fa2535f9c74b439.ctex::
+sprite_2.png::CompressedTexture2D/CompressedTexture2D::7361624115370164942::1613918992::1749412072::1::::<><><>0<>0<>ec7a9fd6cbb6070e1bf71d05bdc61757<>res://.godot/imported/sprite_2.png-7ebfb228a3011f02452fe23bd65bfc1b.ctex::
+::res://Material Duck Hunt/pato/lado/::1749412072
+sprite_0.png::CompressedTexture2D/CompressedTexture2D::5499204890406844952::1613918292::1749412072::1::::<><><>0<>0<>a2f3e713dccacd1ca5cf7533a737c7e7<>res://.godot/imported/sprite_0.png-b1bb49cbe4dd452d19b633c1e556db77.ctex::
+sprite_1.png::CompressedTexture2D/CompressedTexture2D::6676393957562083640::1613918292::1749412072::1::::<><><>0<>0<>4d55407e4a1681949c9646cece25f3ba<>res://.godot/imported/sprite_1.png-e5d443a7b6833cf0b6ca8dbf519d3070.ctex::
+sprite_2.png::CompressedTexture2D/CompressedTexture2D::5568145170371384287::1613918292::1749412072::1::::<><><>0<>0<>545753bee3062186c0355da7fe114b6d<>res://.godot/imported/sprite_2.png-fc95a85622db41b0344e5bdb4e9f2314.ctex::
+::res://Material Duck Hunt/pato/morte/::1749412072
+0.png::CompressedTexture2D/CompressedTexture2D::3980250285267345781::1613918582::1749412072::1::::<><><>0<>0<>5b17397b4d0571120ad9056fee0075c4<>res://.godot/imported/0.png-66b1628245ec7d9b15b9e448d14a3881.ctex::
+1.png::CompressedTexture2D/CompressedTexture2D::5418207954925866182::1613918582::1749412072::1::::<><><>0<>0<>486b9d4a0ef30a249d11b06eec8faf30<>res://.godot/imported/1.png-2708f295764a611ecad0953c8a848d8c.ctex::
+2.png::CompressedTexture2D/CompressedTexture2D::9205761107880844614::1613918582::1749412072::1::::<><><>0<>0<>37c3868c60067473253f368b9376e18a<>res://.godot/imported/2.png-e46795f64177457d4054c4f14f5eb9ce.ctex::
+3.png::CompressedTexture2D/CompressedTexture2D::4283922966827176655::1613918582::1749412072::1::::<><><>0<>0<>f3325f9df6fea9ed6b6bfd0da171df88<>res://.godot/imported/3.png-644e7d766a1a385afb5516bd6f0a2b0c.ctex::
+::res://Material Duck Hunt/sons/::1749412072
+cao_captura.wav::AudioStreamWAV/AudioStreamWAV::7527271804689817453::1415042044::1749412072::1::::<><><>0<>0<>7bfa26aa794ec8fc66954ac5624c5f5a<>res://.godot/imported/cao_captura.wav-8d661efab5bc5cc0a873101a6c99bb71.sample::
+cao_rindo.wav::AudioStreamWAV/AudioStreamWAV::6109665610226723513::1415042044::1749412072::1::::<><><>0<>0<>7191c0936f8dec24738e4d5086ab6ce8<>res://.godot/imported/cao_rindo.wav-f12b586b3189803cd8da462ba16b1bb3.sample::
+colidiu.wav::AudioStreamWAV/AudioStreamWAV::6084515443745391474::1415042044::1749412072::1::::<><><>0<>0<>c08d3c3354539593ed2a448bd957ef8d<>res://.godot/imported/colidiu.wav-b5851a91284a483967ccf2c9dc48673b.sample::
+flyaway.wav::AudioStreamWAV/AudioStreamWAV::4520902734129440799::1415042044::1749412072::1::::<><><>0<>0<>de957bfc34c896cd4d3f6e9a2be7751e<>res://.godot/imported/flyaway.wav-41ad1aa6303a6a821d0e8558153ed993.sample::
+pato.wav::AudioStreamWAV/AudioStreamWAV::6125019381969709052::1415042044::1749412072::1::::<><><>0<>0<>21ca1466c444d6a0e42c4888a9a70219<>res://.godot/imported/pato.wav-6494785c0d6073c191b45fe5c5394146.sample::
+round.wav::AudioStreamWAV/AudioStreamWAV::4473460374784433595::1415042044::1749412072::1::::<><><>0<>0<>52a3d9c6033516fd2e97efefc2be0221<>res://.godot/imported/round.wav-3c386c52709105b9624b02fe2c9cf451.sample::
+tiro.wav::AudioStreamWAV/AudioStreamWAV::8655002073810949685::1415042044::1749412072::1::::<><><>0<>0<>dbea1b4ca2c81717ee6eda4325b0df01<>res://.godot/imported/tiro.wav-009fefafebdbef8469b8c04dffa76028.sample::

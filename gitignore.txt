@@ -1,0 +1,25 @@
+# Arquivos e pastas padrão que devem ser ignorados:
+
+# Arquivos temporários e cache da Godot
+.import/
+*.import
+
+# Arquivos de sistema
+*.tmp
+*.log
+
+# Arquivos de backup
+*.godot~ 
+*.tscn~
+*.tres~
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VSCode (se você usar)
+.vscode/
+
+# Outras IDEs/editors
+.idea/
